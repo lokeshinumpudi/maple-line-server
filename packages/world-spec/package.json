@@ -1,0 +1,16 @@
+{
+  "name": "@maple-line/world-spec",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": "./index.js",
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "oxlint --deny-warnings index.js"
+  },
+  "devDependencies": {
+    "prettier": "3.9.8",
+    "oxlint": "1.83.0"
+  }
+}
